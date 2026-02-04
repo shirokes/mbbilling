@@ -286,6 +286,23 @@
         const billingData = [{"Category": "Gallbladder", "Procedure": "Cholecystectomy", "Code": "3515", "Fee": "624.43", "BMI code": 22.0, "Lap code": "n/a", "Notes": ""}, 
                              
                              {"Category": "Appendix", "Procedure": "Appendectomy", "Code": "3261", "Fee": "487.31", "BMI code": 22.0, "Lap code": "n/a", "Notes": ""}, 
+                             {"Category": "Acute Care", "Procedure": "Consult-unassigned", "Code": "8595", "Fee": "192.61", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""},
+                             
+                             {"Category": "Small Intestine", "Procedure": "Small bowel resection", "Code": "3174", "Fee": "817.32", "BMI code": 23.0, "Lap code": 3540.0, "Notes": ""},
+                             {"Category": "Small Intestine", "Procedure": "Small bowel obstruction, nonresective", "Code": "3201", "Fee": "724.79", "BMI code": 22.0, "Lap code": "n/a", "Notes": ""},
+                             {"Category": "Colon", "Procedure": "Partial Colectomy", "Code": "3179", "Fee": "1039.4", "BMI code": 23.0, "Lap code": 3540.0, "Notes": ""},
+                             {"Category": "Hernia", "Procedure": "Incarcerated hernia without bowel resection", "Code": "3633", "Fee": "545.91", "BMI code": 22.0, "Lap code": "n/a", "Notes": ""},
+                             {"Category": "Hernia", "Procedure": "Inguinal Hernia", "Code": "3631", "Fee": "422.23", "BMI code": 22.0, "Lap code": 3540.0, "Notes": ""},
+                             {"Category": "Anus", "Procedure": "Perianal abscess", "Code": "3283", "Fee": "127.51", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Major Tray fee - 0001"}, 
+                             {"Category": "Anus", "Procedure": "Ischiorectal abscess", "Code": "3357", "Fee": "205.54", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Major Tray fee - 0001"},
+
+                             {"Category": "Acute Care", "Procedure": "Special Call - ED or OPD of a hospital", "Code": "8598", "Fee": "55.96", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+                             {"Category": "Acute Care", "Procedure": "Special Call - non-elective in postop period", "Code": "8567", "Fee": "55.96", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+                             {"Category": "Acute Care", "Procedure": "Special Call - to the OR or to office", "Code": "8563", "Fee": "55.96", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+                             {"Category": "Acute Care", "Procedure": "After Hours - 1700-2359", "Code": "5555", "Fee": "50%", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+                             {"Category": "Acute Care", "Procedure": "After Hours - weekends and holidays", "Code": "5550", "Fee": "50%", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+                             {"Category": "Acute Care", "Procedure": "After Hours - 2400-0700", "Code": "5553", "Fee": "75%", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""},
+                             
                              {"Category": "Appendix", "Procedure": "Perforated appendectomy", "Code": "3262", "Fee": "487.31", "BMI code": 22.0, "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Appendix", "Procedure": "Appendix Abscess drainage", "Code": "3251", "Fee": "348.76", "BMI code": 21.0, "Lap code": 3540.0, "Notes": ""}, 
                              {"Category": "Appendix", "Procedure": "Appendectomy with drainage of abscess", "Code": "3263", "Fee": "508.64", "BMI code": 22.0, "Lap code": "n/a", "Notes": ""}, 
@@ -297,7 +314,7 @@
                              {"Category": "Hernia", "Procedure": "Massive Ventral / Incisional Hernia", "Code": "3660", "Fee": "765.28", "BMI code": 23.0, "Lap code": "n/a", "Notes": "includes LOA; Consider billing by report for component separation"}, 
                              {"Category": "Hernia", "Procedure": "Vertical Panniculectomy (vertical 15 to 30cm)", "Code": "3596", "Fee": "694.16", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Needs prior approval"}, 
                              {"Category": "Hernia", "Procedure": "Vertical Panniculectomy (vertical skin over 30cm)", "Code": "3597", "Fee": "1081.18", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Needs prior approval"}, 
-                             {"Category": "Hernia", "Procedure": "Inguinal Hernia", "Code": "3631", "Fee": "422.23", "BMI code": 22.0, "Lap code": 3540.0, "Notes": ""}, 
+                              
                              {"Category": "Hernia", "Procedure": "Recurrent Inguinal hernia", "Code": "3635", "Fee": "545.66", "BMI code": 22.0, "Lap code": 3540.0, "Notes": ""}, 
                              {"Category": "Hernia", "Procedure": "Femoral hernia", "Code": "3646", "Fee": "422.23", "BMI code": 22.0, "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Hernia", "Procedure": "Femoral hernia, recurrent", "Code": "3651", "Fee": "520", "BMI code": 22.0, "Lap code": "n/a", "Notes": ""}, 
@@ -322,7 +339,7 @@
                              {"Category": "Small Intestine", "Procedure": "Ileostomy - skin level revision", "Code": "3203", "Fee": "239.17", "BMI code": 21.0, "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Small Intestine", "Procedure": "Mesentery suture", "Code": "3241", "Fee": "546.48", "BMI code": 22.0, "Lap code": 3540.0, "Notes": ""}, 
                              {"Category": "Small Intestine", "Procedure": "Enteroanastomosis", "Code": "3191", "Fee": "697.05", "BMI code": 22.0, "Lap code": 3540.0, "Notes": ""}, 
-                             {"Category": "Small Intestine", "Procedure": "Small bowel resection", "Code": "3174", "Fee": "817.32", "BMI code": 23.0, "Lap code": 3540.0, "Notes": ""}, 
+                              
                              {"Category": "Small Intestine", "Procedure": "Massive small bowel resection (greater than 50%)", "Code": "3175", "Fee": "934.52", "BMI code": 23.0, "Lap code": 3540.0, "Notes": ""}, 
                              {"Category": "Small Intestine", "Procedure": "Meckel's resection", "Code": "3231", "Fee": "655.96", "BMI code": 22.0, "Lap code": 3540.0, "Notes": ""}, 
                              
@@ -333,7 +350,6 @@
                              {"Category": "Colon", "Procedure": "Colostomy, full thickness revision", "Code": "3204", "Fee": "558.56", "BMI code": 21.0, "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Colon", "Procedure": "Closure of loop colostomy (no bowel resection)", "Code": "3225", "Fee": "590.5", "BMI code": 22.0, "Lap code": 3540.0, "Notes": ""}, 
                              {"Category": "Colon", "Procedure": "Hartmann reversal", "Code": "3224", "Fee": "1126.93", "BMI code": 23.0, "Lap code": 3540.0, "Notes": ""}, 
-                             {"Category": "Colon", "Procedure": "Partial Colectomy", "Code": "3179", "Fee": "1039.4", "BMI code": 23.0, "Lap code": 3540.0, "Notes": ""}, 
                              {"Category": "Colon", "Procedure": "Total colectomy", "Code": "3180", "Fee": "1438.5", "BMI code": 23.0, "Lap code": 3540.0, "Notes": ""}, 
                              
                              {"Category": "Rectum", "Procedure": "Anterior resection", "Code": "3290", "Fee": "1286.77", "BMI code": 23.0, "Lap code": 3540.0, "Notes": "Technically the anast needs to be below peritoneal reflection"}, 
@@ -342,8 +358,7 @@
                              {"Category": "Rectum", "Procedure": "Closure of rectovaginal fistula", "Code": "3335", "Fee": "448.28", "BMI code": 22.0, "Lap code": "n/a", "Notes": ""}, 
                              
                              {"Category": "Anus", "Procedure": "External hemorrhoids - evacuation of thrombus", "Code": "3392", "Fee": "57.79", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Minor Tray fee - 0003"}, 
-                             {"Category": "Anus", "Procedure": "Perianal abscess", "Code": "3283", "Fee": "127.51", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Major Tray fee - 0001"}, 
-                             {"Category": "Anus", "Procedure": "Ischiorectal abscess", "Code": "3357", "Fee": "205.54", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Major Tray fee - 0001"}, 
+                              
                              {"Category": "Anus", "Procedure": "Sphincterotomy", "Code": "3364", "Fee": "263.45", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Anus", "Procedure": "Fistulotomy, subcutaneous", "Code": "3353", "Fee": "285.16", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Anus", "Procedure": "Fistulotomy, submuscular", "Code": "3356", "Fee": "344.71", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
@@ -388,9 +403,11 @@
                              
                              {"Category": "Skin", "Procedure": "Superficial I&D", "Code": "0101", "Fee": "46.71", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Superficial localized infection such as steatoma, furuncle, boil, paronychia, felon, pilonidal abscess—incision and drainage"}, 
                              {"Category": "Skin", "Procedure": "Pilonidal cyst excision and plastic closure", "Code": "0247", "Fee": "333.8", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+
                              
+                             {"Category": "Abdomen", "Procedure": "Lap Modifier", "Code": "3540", "Fee": "25%", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Only works for certain codes.  Ones that it works on are marked as such."},
                              {"Category": "Abdomen", "Procedure": "Diagnostic Laparoscopy", "Code": "3572", "Fee": "197.39", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Abdomen", "Procedure": "Diagnostic laparoscopy + open abdominal operation", "Code": "3574", "Fee": "192.4", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+                             {"Category": "Abdomen", "Procedure": "Diagnostic Laparoscopy + Open abdominal operation", "Code": "3574", "Fee": "192.4", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Abdomen", "Procedure": "Lap converted to open", "Code": "3579", "Fee": "192.4", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
                              
                              {"Category": "Trauma", "Procedure": "Abdominal Lavage for Trauma", "Code": "3589", "Fee": "50.07", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
@@ -401,37 +418,41 @@
                              {"Category": "Abdomen", "Procedure": "Subphrenic abdominal abscess", "Code": "3575", "Fee": "596.5", "BMI code": 22.0, "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Abdomen", "Procedure": "Transrectal abscess drainage", "Code": "3285", "Fee": "225.72", "BMI code": 21.0, "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Abdomen", "Procedure": "Suture of wound disruption", "Code": "3734", "Fee": "450.43", "BMI code": 22.0, "Lap code": "n/a", "Notes": ""}, 
+                             {"Category": "Abdomen", "Procedure": "Unlisted or Unusually Complicated", "Code": "3619", "Fee": "By Report", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""},
+                              
+                              
                              
-                             {"Category": "Hernia", "Procedure": "Incarcerated hernia without bowel resection", "Code": "3633", "Fee": "545.91", "BMI code": 22.0, "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Communication", "Procedure": "Communication initiated by other provider", "Code": "8000", "Fee": "16.25", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Can use for home care correspondence - include \"home care\" and time of day in claim"}, 
-                             {"Category": "Conference", "Procedure": "Patient Care Family Conference", "Code": "8473", "Fee": "40.47", "BMI code": "n/a", "Lap code": "n/a", "Notes": "12 x 15 minutes session per year"}, 
-                             {"Category": "Communication", "Procedure": "Communication to other healthcare provider (telephone, fax, email)", "Code": "8001", "Fee": "25", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Communication", "Procedure": "EDS approval", "Code": "8003", "Fee": "16.91", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Can't be done by proxy, must document in chart, max 5 communications/patient over 30 days"}, 
-                             {"Category": "Acute Care", "Procedure": "Blood thinner / anticoagulation recommendations", "Code": "8002", "Fee": "18.44", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Where the hospital in-patient has undergone major surgery, and where it is the surgeon who is responsible for monitoring the condition of the patient with respect to the anticoagulant therapy for the majority of that particular month, the surgeon may claim this tariff, despite the fact that the service date may fall within the three-week post operative period."}, 
-                             {"Category": "Communication", "Procedure": "Pharmacy Communication", "Code": "8005", "Fee": "16.91", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Acute Care", "Procedure": "Telephone consult - consultant", "Code": "8355", "Fee": "50", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Acute Care", "Procedure": "Telephone consult - referring md", "Code": "8356", "Fee": "25", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Acute Care", "Procedure": "Interfacility transfer", "Code": "8331", "Fee": "50", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Can't be if sent from St. B or HSC"}, {"Category": "Clinic", "Procedure": "Consultation", "Code": "8550", "Fee": "139.3", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, {"Category": "Clinic", "Procedure": "Regional History or Subsequent visit", "Code": "8403", "Fee": "33.75", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+                              
+
+                             {"Category": "Clinic", "Procedure": "Community-Based Supplement", "Code": "8380", "Fee": "3.64", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""},
+                             {"Category": "Clinic", "Procedure": "Consultation", "Code": "8550", "Fee": "139.3", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+                             {"Category": "Clinic", "Procedure": "Regional History or Subsequent visit", "Code": "8403", "Fee": "33.75", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""},
                              {"Category": "Clinic", "Procedure": "H&P", "Code": "8540", "Fee": "63.26", "BMI code": "n/a", "Lap code": "n/a", "Notes": "> 60 days"}, 
+                              {"Category": "Clinic", "Procedure": "Virtual Consult", "Code": "8535", "Fee": "139.3", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+                             {"Category": "Clinic", "Procedure": "Virtual visit", "Code": "8321", "Fee": "33.75", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+                             {"Category": "Clinic", "Procedure": "Comprehensive virtual visit", "Code": "8447", "Fee": "63.26", "BMI code": "n/a", "Lap code": "n/a", "Notes": "> 60 days"},
                              {"Category": "Clinic", "Procedure": "Debridement of wound not on lower extremity", "Code": "0479", "Fee": "72.83", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Clinic", "Procedure": "Dressing for wounds not due to burns", "Code": "0436", "Fee": "36.41", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Clinic", "Procedure": "Removal of sutures/staples", "Code": "0252", "Fee": "18.21", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Clinic", "Procedure": "Community-Based Supplement", "Code": "8380", "Fee": "3.64", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Conference", "Procedure": "Case Management (eg: Tumour Boards)", "Code": "8474", "Fee": "42.11", "BMI code": "n/a", "Lap code": "n/a", "Notes": "max 1 hr, 3 per patient per year"}, 
+                              {"Category": "Clinic", "Procedure": "Communication to other healthcare provider (telephone, fax, email)", "Code": "8001", "Fee": "25", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+                             {"Category": "Clinic", "Procedure": "EDS approval", "Code": "8003", "Fee": "16.91", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Can't be done by proxy, must document in chart, max 5 communications/patient over 30 days"}, 
+                             {"Category": "Clinic", "Procedure": "Pharmacy Communication", "Code": "8005", "Fee": "16.91", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""},
+                             {"Category": "Clinic", "Procedure": "Patient Care Family Conference", "Code": "8473", "Fee": "40.47", "BMI code": "n/a", "Lap code": "n/a", "Notes": "12 x 15 minutes session per year"}, 
+                             {"Category": "Clinic", "Procedure": "Case Management (eg: Tumour Boards)", "Code": "8474", "Fee": "42.11", "BMI code": "n/a", "Lap code": "n/a", "Notes": "max 1 hr, 3 per patient per year"},
+                             {"Category": "Clinic", "Procedure": "Communication initiated by other provider", "Code": "8000", "Fee": "16.25", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Can use for home care correspondence - include \"home care\" and time of day in claim"},
+                             
                              {"Category": "Acute Care", "Procedure": "H&P", "Code": "8540", "Fee": "63.26", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Acute Care", "Procedure": "Consult-unassigned", "Code": "8595", "Fee": "192.61", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Acute Care", "Procedure": "Regional History / Subsequent Visit", "Code": "8510", "Fee": "33.9", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Can bill with OR on call or cancer case"}, 
                              {"Category": "Acute Care", "Procedure": "Hospital care", "Code": "8520", "Fee": "35.92", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Acute Care", "Procedure": "Concomitant Care", "Code": "8524", "Fee": "35.92", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Acute Care", "Procedure": "Special Call - ED or OPD of a hospital", "Code": "8598", "Fee": "55.96", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Acute Care", "Procedure": "Special Call - non-elective in postop period", "Code": "8567", "Fee": "55.96", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Acute Care", "Procedure": "Special Call - to the OR or to office", "Code": "8563", "Fee": "55.96", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Acute Care", "Procedure": "After Hours - 1700-2359", "Code": "5555", "Fee": "50%", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Acute Care", "Procedure": "After Hours - weekends and holidays", "Code": "5550", "Fee": "50%", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Acute Care", "Procedure": "After Hours - 2400-0700", "Code": "5553", "Fee": "75%", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Clinic", "Procedure": "Virtual Consult", "Code": "8535", "Fee": "139.3", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Clinic", "Procedure": "Virtual visit", "Code": "8321", "Fee": "33.75", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
-                             {"Category": "Clinic", "Procedure": "Comprehensive virtual visit", "Code": "8447", "Fee": "63.26", "BMI code": "n/a", "Lap code": "n/a", "Notes": "> 60 days"}, 
+                             {"Category": "Acute Care", "Procedure": "Telephone consult - consultant", "Code": "8355", "Fee": "50", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+                             {"Category": "Acute Care", "Procedure": "Telephone consult - referring md", "Code": "8356", "Fee": "25", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+                             {"Category": "Acute Care", "Procedure": "Interfacility transfer", "Code": "8331", "Fee": "50", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Can't be if sent from St. B or HSC"},
+                             {"Category": "Acute Care", "Procedure": "Patient Care Family Conference", "Code": "8473", "Fee": "40.47", "BMI code": "n/a", "Lap code": "n/a", "Notes": "12 x 15 minutes session per year"}, 
+                             {"Category": "Acute Care", "Procedure": "Case Management (eg: Tumour Boards)", "Code": "8474", "Fee": "42.11", "BMI code": "n/a", "Lap code": "n/a", "Notes": "max 1 hr, 3 per patient per year"}, 
+                             {"Category": "Acute Care", "Procedure": "Blood thinner / anticoagulation recommendations", "Code": "8002", "Fee": "18.44", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Where the hospital in-patient has undergone major surgery, and where it is the surgeon who is responsible for monitoring the condition of the patient with respect to the anticoagulant therapy for the majority of that particular month, the surgeon may claim this tariff, despite the fact that the service date may fall within the three-week post operative period."},
+                             {"Category": "Acute Care", "Procedure": "EDS approval", "Code": "8003", "Fee": "16.91", "BMI code": "n/a", "Lap code": "n/a", "Notes": "Can't be done by proxy, must document in chart, max 5 communications/patient over 30 days"},
+                             
                              {"Category": "Upper Endoscopy", "Procedure": "EGD", "Code": "3123", "Fee": "135.97", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Upper Endoscopy", "Procedure": "EGD + polypectomy", "Code": "3122", "Fee": "216.46", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Upper Endoscopy", "Procedure": "EGD with foreign body removal", "Code": "3057", "Fee": "196.19", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
@@ -456,7 +477,7 @@
                              {"Category": "Endo Modifiers", "Procedure": "Hemodynamic instability", "Code": "3006", "Fee": "56.28", "BMI code": "n/a", "Lap code": "n/a", "Notes": "one or more of:  HR>100, BP< 80, Hb<80, ongoing bleeding"}, 
                              {"Category": "Endo Modifiers", "Procedure": "Placement of postpyloric feeding tube", "Code": "3008", "Fee": "86.48", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Lower Endoscopy", "Procedure": "10 or more biopsies", "Code": "3012", "Fee": "64.82", "BMI code": "n/a", "Lap code": "n/a", "Notes": "For upper gi, use 3013"}, 
-                             {"Category": "Abdomen", "Procedure": "Unlisted or Unusually Complicated", "Code": "3619", "Fee": "By Report", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
+                              
                              {"Category": "Lower Endoscopy", "Procedure": "Flex Sig and removal of foreign body or hemorrhage control", "Code": "3319", "Fee": "By Report", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}, 
                              {"Category": "Upper Endoscopy", "Procedure": "EGD with injection or band ligation of varices", "Code": "3065", "Fee": "221.82", "BMI code": "n/a", "Lap code": "n/a", "Notes": ""}];;
 
